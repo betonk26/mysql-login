@@ -41,7 +41,7 @@ atau
 npm install
 ```
 
-### 4) Setting Database
+### 4) Setting Project
 ubah database kalian atau bisa juga pakai database bawaan
 ```js
 const connection = mysql.createConnection({
@@ -51,6 +51,17 @@ const connection = mysql.createConnection({
     database:'UBAH DATABASE KALIAN' // bawaan 'test_node'
 });
 ```
+
+ubah akun loginnya
+```js
+if (username !== 'USERNAME KALIAN' && password !== 'PASSWORD KALIAN') //if (username !== 'fathon' && password !== 'admin1234')
+```
+dan juga ganti untuk check akunnya
+```
+if (username === "fathon") {
+        if (password === "admin1234") {
+```
+
 
 ### 5) Jalanin Servernya (aplikasi)
 ada 2 cara yaitu menggunakan
@@ -75,5 +86,5 @@ Ini adalah Project Free & Open Source, Jika Kalian Ingin Menggunakannya Untuk Ke
 - Ahmad Fathon Nurhidayat
 
 ## Donate For Support This Project :)
-`nambahin buat bayar makrab` 6801038643 no rek BCA AHMAD FATHON
-`biar bikin templatenya makin niat` <a href="https://saweria.co/fathon" target='_blank'>  </a>
+`nambahin buat bayar makrab` 6801038643 no rek BCA AHMAD FATHON <br>
+`biar bikin templatenya makin niat` <a href="https://saweria.co/fathon" target='_blank'>click here!</a>
